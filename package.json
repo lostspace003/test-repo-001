@@ -1,5 +1,8 @@
 {
-  "name": "nodejs-ci-starter",
+  "name": "@lostspace003/test-repo-001",
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com/"
+  },
   "version": "1.0.0",
   "description": "Minimal Node.js project designed to pass the provided GitHub Actions CI workflow (build + test) on Node 14.",
   "main": "src/index.js",
