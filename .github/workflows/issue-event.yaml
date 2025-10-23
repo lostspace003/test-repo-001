@@ -1,0 +1,14 @@
+name: Issues Found
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  issues_found:
+    runs-on: ubuntu-latest
+    steps:
+      - name: info about issues
+        run: |
+          echo "some issues has been found which needs to resolved"
